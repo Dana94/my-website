@@ -3,7 +3,10 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        <Logo v-if="showLogo" />
+        <g-link to="/about">About</g-link> 
+        
+        <g-link to="/portfolio">Portfolio</g-link> 
       </div>
       
       <div class="header__right">        

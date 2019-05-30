@@ -39,7 +39,7 @@ export default {
     opacity: .8
   }
   &:focus {
-    outline: none;
+    // outline: none;
   }
 }
 </style>
