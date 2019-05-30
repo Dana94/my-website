@@ -7,7 +7,7 @@
 
 body {
  	background-color: var(--bg-color) !important;
- 	color: var(--body-color);
+ 	color: var(--body-color) !important;
  	transition: color .6s, background-color .6s;
  	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
