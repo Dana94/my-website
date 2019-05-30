@@ -5,8 +5,8 @@
       <div class="header__left">
         <Logo v-if="showLogo" />
         <g-link to="/about">About</g-link> 
-        
         <g-link to="/portfolio">Portfolio</g-link> 
+        <g-link to="/contact">Contact</g-link> 
       </div>
       
       <div class="header__right">        
@@ -56,6 +56,9 @@ export default {
     display: flex;
     align-items: center;
   }
+  &__left a {
+    margin: .5rem;
+  }
 
   @media screen and (min-width: 1300px) {
     //Make header sticky for large screens
@@ -85,4 +88,5 @@ export default {
     color: currentColor;
   }
 }
+
 </style>

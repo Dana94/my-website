@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Portfolio</h1>
+    <h1>Get In Touch!</h1>
   </Layout>
 </template>
 
