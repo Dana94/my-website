@@ -6,8 +6,8 @@
 }
 
 body {
- 	background-color: var(--bg-color) !important;
- 	color: var(--body-color) !important;
+ 	background-color: var(--bg-color) !important; // fix from installing bootstrap-vue
+ 	color: var(--body-color) !important; // fix from installing bootstrap-vue
  	transition: color .6s, background-color .6s;
  	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
