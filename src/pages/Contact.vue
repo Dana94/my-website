@@ -3,7 +3,7 @@
     <b-container>
       <h1>Get In Touch!</h1>
 
-      <b-form @submit="onSubmit">
+      <b-form @submit="onSubmit" class="col-md-10">
         <b-form-group id="input-group-1" label="Email:" label-for="input-1">
           <b-form-input id="input-1" v-model="form.email" type="email" aria-required="true"></b-form-input>
         </b-form-group>
@@ -15,7 +15,7 @@
         <b-form-group id="input-group-3" label="Message:" label-for="input-3">
           <b-form-textarea id="textarea" v-model="text" rows="3" max-rows="6" aria-required="true"></b-form-textarea>
         </b-form-group>
-        <b-button type="submit" variant="primary">Submit</b-button>
+        <b-button type="submit" variant="primary" class="btn-outline-light">Submit</b-button>
       </b-form>
     </b-container>
   </Layout>
@@ -45,3 +45,10 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+form {
+  margin: 0 auto;
+}
+</style>
+
