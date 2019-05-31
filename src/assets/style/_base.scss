@@ -15,6 +15,14 @@ body {
   line-height: 1.5;
 }
 
+body[data-theme="dark"] {
+	a:not(.button) {
+		&:hover {
+			color: #86bdf9;
+		}
+	}
+}
+
 a:not(.button) {
 	color: var(--link-color);
  	transition: opacity .2s;

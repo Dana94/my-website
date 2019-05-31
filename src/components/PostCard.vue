@@ -10,7 +10,7 @@
       <PostMeta class="post-card__meta" :post="post" />
       <PostTags class="post-card__tags" :post="post" />
 
-      <g-link class="post-card__link" :to="post.path">Link</g-link>
+      <g-link class="post-card__link" :to="post.path">Read Post</g-link>
     </div>
   </div>
 </template>
@@ -65,12 +65,12 @@ export default {
   }
 
   &__link {
-    position: absolute;
+    // position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.0;
+    // opacity: 0.0;
     overflow: hidden;
     text-indent: -9999px;
     z-index: 0;
