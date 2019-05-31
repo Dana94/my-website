@@ -1,19 +1,20 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
+		<!-- <g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" /> -->
 
 		<h1 v-if="showTitle" class="author__site-title">
-			{{ $static.metaData.siteName }}
+			Hi, I'm Dana.
+			<!-- {{ $static.metaData.siteName }} -->
 		</h1>
 
 		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+			
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/gridsome">Follow on Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+			<a href="https://github.com/Dana94" target="_blank"><font-awesome :icon="['fab', 'github']" class="fa-2x icon"/></a>
+			<a href="https://www.linkedin.com/in/danaottaviani/" target="_blank"><font-awesome :icon="['fab', 'linkedin']" class="fa-2x icon"/></a>
 		</p>
 
 	</div>
@@ -57,8 +58,8 @@ export default {
 
 	&__links {
 		margin-top: -.5em;
-		a {
-			margin: 0 .5em;
+		.icon {
+			margin: 0 .5rem;
 		}
 	}
 }
