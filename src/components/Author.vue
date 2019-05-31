@@ -13,8 +13,8 @@
 		</p>
 
 		<p class="author__links">
-			<a href="https://github.com/Dana94"><font-awesome :icon="['fab', 'github']" class="fa-2x icon"/></a>
-			<a href="https://www.linkedin.com/in/danaottaviani/"><font-awesome :icon="['fab', 'linkedin']" class="fa-2x icon"/></a>
+			<a href="https://github.com/Dana94" target="_blank"><font-awesome :icon="['fab', 'github']" class="fa-2x icon"/></a>
+			<a href="https://www.linkedin.com/in/danaottaviani/" target="_blank"><font-awesome :icon="['fab', 'linkedin']" class="fa-2x icon"/></a>
 		</p>
 
 	</div>
