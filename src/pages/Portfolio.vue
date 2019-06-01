@@ -3,9 +3,12 @@
     <b-container>
       <h1>Portfolio</h1>
       <b-row>
-        <b-col sm="4" class="grid"></b-col>
-        <b-col sm="4" class="grid"></b-col>
-        <b-col sm="4" class="grid"></b-col>
+        <div class="grid" tabindex="0"></div>
+        <div class="grid" tabindex="0"></div>
+        <div class="grid" tabindex="0"></div>
+        <div class="grid" tabindex="0"></div>
+        <div class="grid" tabindex="0"></div>
+        <div class="grid" tabindex="0"></div>
       </b-row>
     </b-container>
   </Layout>
@@ -22,8 +25,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+h1 {
+  margin-bottom: 4rem; //TODO: Apply to all pages to keep consistent
+}
+
+.row {
+  justify-content: center;
+}
 .grid {
   border: 1px dashed black;
   height: 200px;
+  width: 200px;
+  transform: rotateZ(45deg);
+  background-color: #00ffffd1;
+
+  &:hover,
+  &:focus {
+    z-index: 1;
+  }
 }
 </style>
