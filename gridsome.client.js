@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faHtml5, faCss3, faJs, faBootstrap, faVuejs  } from '@fortawesome/free-brands-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
-library.add(faGithub,faLinkedin)
+library.add(faGithub, faLinkedin, faHtml5, faCss3, faJs, faBootstrap, faVuejs);
 
 export default function (Vue) {
   Vue.component('font-awesome', FontAwesomeIcon)

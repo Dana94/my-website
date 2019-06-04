@@ -9,7 +9,7 @@
 		</h1>
 
 		<p class="author__intro">
-			
+			A software developer who enjoys puzzles and embracing my creative side in my work.
 		</p>
 
 		<p class="author__links">
@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .author {
 	margin: 0 auto;
 	max-width: 500px;
