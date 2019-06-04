@@ -12,6 +12,7 @@
           <div class="title">Project Title</div>
         </div>
       </b-row>
+      
     </b-container>
   </Layout>
 </template>
@@ -20,6 +21,11 @@
 import Layout from "~/layouts/Default.vue";
 
 export default {
+  data() {
+    return {
+      projects: 10
+    };
+  },
   components: {
     Layout
   }
